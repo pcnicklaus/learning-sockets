@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" ng-app='myApp'>
+  <head>
+    <meta charset="utf-8">
+    <title>Untitled</title>
+
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+  </head>
+  <body>
+    <!-- sample angular code -->
+    <div class="container">
+      <div ng-controller="myController">
+
+        <div class="chat">
+        <input type="text" class="chat-name" placeholder="enter your name">
+        <div class="chat-messages">
+          <div class="chat-message">
+          Alex: Hello There
+          </div>
+          <div class="chat-message">
+          Alex: fuck off
+          </div>
+
+        </div>
+        <textarea class="chat-textarea" placeholder="Type your message"></textarea>
+        <div class="chat-status">Status: <span>Idle</span></div>
+        </div>
+
+      </div>
+    </div>
+
+    <script>
+
+
+
+    </script>
+
+    <script src="http://127.0.0.1:8080/socket.io/socket.io.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/angular.js"></script>
+  </body>
+</html>
